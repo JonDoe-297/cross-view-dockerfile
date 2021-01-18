@@ -6,3 +6,4 @@ RUN pip install tqdm
 RUN pip install tensorboardX
 RUN pip install Pillow
 RUN pip install opencv-python
+RUN pip install pycocotools
