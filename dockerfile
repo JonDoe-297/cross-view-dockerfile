@@ -9,6 +9,7 @@ RUN pip install opencv-python
 RUN pip install pycocotools
 RUN pip install easydict
 RUN pip install yacs
+RUN pip install progressbar
 RUN pip install nuscenes-devkit
 RUN git clone https://github.com/argoai/argoverse-api.git
 RUN pip install -e ./argoverse-api
