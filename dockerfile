@@ -7,7 +7,8 @@ RUN pip install tensorboardX
 RUN pip install Pillow
 RUN pip install opencv-python
 RUN pip install pycocotools
-RUn pip install easydict
-RUn pip install nuscenes-devkit
-RUn git clone https://github.com/argoai/argoverse-api.git
+RUN pip install easydict
+RUN pip install yacs
+RUN pip install nuscenes-devkit
+RUN git clone https://github.com/argoai/argoverse-api.git
 RUN pip install -e ./argoverse-api
